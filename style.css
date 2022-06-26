@@ -73,7 +73,7 @@ nav.sticky .navbar .menu li a:hover{
     color:rgba(10, 209, 20, 0.602); 
 }
 .navbar .media-icons a:hover {
-    color: blue;
+    color: black;
 }
 nav.sticky .navbar .media-icons a:hover {
     color: white;
@@ -266,11 +266,65 @@ section .button button:hover{
     font-size: 60px;
     font-weight: 500;
 }
+
+/*Experience Section CSS*/ 
+.udaan {
+    width: 30px;
+    height: 30px;
+}
+.cc_logo {
+    width: 30px;
+    height: 30px;
+}
 /*Contact Me CSS*/
 .contact .content{
     text-align: center;
     margin: auto;
-    width: 80%;
+    width: 90%;
+    color: white;
+    background: black;
+}
+.contact .content .text .topic {
+    color: white;
+}
+.contact .content .text .button button{
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+.contact .content .text .button button:hover {
+    border-color: white;
+    background: black;
+    color: white;
+}
+/* Footer CSS*/
+footer {
+    background: rgb(231, 231, 231);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 2%;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer .text span {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/*Scroll to top button CSS*/
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 12px;
+    background-color: black;
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.scroll-btn a {
+    color: white;
 }
 /*Responsive Media Query CSS*/
 @media (max-width: 1700px) {
