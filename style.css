@@ -276,6 +276,10 @@ section .button button:hover{
     width: 30px;
     height: 30px;
 }
+.socgen {
+    width: 30px;
+    height: 30px;
+}
 /*Contact Me CSS*/
 .contact .content{
     text-align: center;
