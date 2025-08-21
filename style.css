@@ -190,7 +190,7 @@ section .topic {
 .about-details .left p {
     color: black;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
 }
 section .button {
     margin: 14px 0;
